@@ -1,4 +1,5 @@
 #navBar{
+    margin:0px;
     height: 100vh;
     width:10%;
     background-color: #9c999b;
@@ -21,10 +22,12 @@
 }
 
 .linksDivs{
+    text-align: center;
     transition: all .2s ease-in-out; 
     padding:8%;
     margin:10% 5% 15% 5%;
-    background-color:#3A0339;
+    /* background-color:#3A0339; */
+    background-color: #180118;
     color:hsl(300, 25%, 94%);
     border-radius: 75%;
     text-decoration: none;
@@ -39,14 +42,21 @@
 }
 
 #contactDiv{
+
     display:flex;
     flex-direction: column;
 }
 
+#contactDiv{
+    margin: auto;
+}
 .contactlinks{
+
     transition: all .2s ease-in-out; 
     height:35px;
     width:35px;
+    width: max-content;
+
 }
 
 .contactlinks:hover{

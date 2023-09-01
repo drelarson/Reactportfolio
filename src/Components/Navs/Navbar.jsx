@@ -14,17 +14,13 @@ const Navbar = ()=>{
             <img id='navLogo' src={Alogo} alt="AL Logo" />
 
             <div id="linkDiv">
+
                 <a className="linksDivs"href=""> About Me </a>
                 <a className="linksDivs"href=""> My Projects </a>
                 <a className="linksDivs"href=""> My Skills </a>
                 <a className="linksDivs"href=""> Contact Me </a>
-            
-                {/* <div className="linksDivs"><a className="links">About Me</a></div>
-                <div className="linksDivs"><a className="links">My Projects</a></div>
-                <div className="linksDivs"><a className="links">My Skills</a></div>
-                <div className="linksDivs"><a className="links">Contact Me</a></div> */}
 
-            </div>
+                </div>
 
             <div id="contactDiv">
 
@@ -32,30 +28,13 @@ const Navbar = ()=>{
                 <span className="contactlinksDiv"><img className="contactlinks" src={mail} alt="LinkedIn Icon" /></span>
                 <span className="contactlinksDiv"><img  className="contactlinks" src={linkedin} alt="Github Icon"/></span>
 
-
-
             </div>
 
-           
 
-            
-
-
-        
-        
-        
-        
-        
-        
         
         </div>
 
-
-
     )
-
-
-
 
 
 }
