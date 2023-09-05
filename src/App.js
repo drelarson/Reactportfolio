@@ -2,6 +2,7 @@
 import './App.css';
 import Landing from './Components/Landing/Landing';
 import Navbar from './Components/Navs/Navbar';
+import AboutMe from './Components/About/AboutMe'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <div id="wholeLanding">
         <Landing />
+        <AboutMe/>
 
 
       </div>

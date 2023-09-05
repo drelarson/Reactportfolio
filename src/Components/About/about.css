@@ -1,0 +1,51 @@
+#aboutArea{
+    margin-left:10%;
+    height: auto;
+    width: auto;
+    background-color:#fccffc;
+ 
+
+}
+#aboutHeader{
+    text-align: center;
+    font-family:"Brock Script";
+    font-size: 8vh;
+    color:black;
+}
+
+#intro{
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+#textBox{
+    text-indent: 5%;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+}
+
+ #about{
+    /* margin:0% 0% 0% 12%; */
+    width: 75%;
+    /* border: 2px solid #180118; */
+ }
+
+ .paras{
+    margin:2%;
+ }
+
+.myPicture{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#imageArea{
+    align-self: center;
+    justify-self: center;
+    height: auto;
+    width: 25%;
+}
+
