@@ -3,6 +3,7 @@ import './App.css';
 import Landing from './Components/Landing/Landing';
 import Navbar from './Components/Navs/Navbar';
 import AboutMe from './Components/About/AboutMe'
+import Projects from './Components/Projects/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div id="wholeLanding">
         <Landing />
         <AboutMe/>
+        <Projects/>
 
 
       </div>

@@ -18,4 +18,11 @@ code {
     monospace;
 }
 
+.headers{
+  text-align: center;
+  font-family:"Brock Script";
+  font-size: 8vh;
+  
+}
+
 
