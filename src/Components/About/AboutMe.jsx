@@ -8,7 +8,7 @@ const AboutMe = () => {
 
 
         <div id="aboutArea">
-            <div id="aboutHeader">About Me</div>
+            <div className="headers">About Me</div>
 
             <div id="intro">
                 I am a professional with a passion for web development, a dedication to client satisfaction, and a relentless drive for self-improvement. I am ready to leverage my skills and experience to tackle new challenges,  and create and contribute to innovative projects. Let's collaborate and bring your ideas light!
@@ -40,24 +40,9 @@ const AboutMe = () => {
                 <div id="imageArea"><img className="myPicture" src={dre} alt="Andre's Picture" /></div>
             </div>
 
-
-
-
-
-
-
-
         </div>
 
-
-
-
-
     )
-
-
-
-
 
 }
 
