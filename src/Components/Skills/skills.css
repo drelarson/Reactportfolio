@@ -1,0 +1,28 @@
+#skillsArea {
+    margin-left: 10%;
+    height: auto;
+    width: auto;
+    background-color: #fccffc;
+}
+
+
+#skillsDiv{
+
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+
+}
+
+
+.skills{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 85vw;
+   
+  }
