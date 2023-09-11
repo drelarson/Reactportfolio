@@ -56,7 +56,7 @@ const Landing = () => {
                 <div id="heading">
                     <div className="headingName">Andre Larson</div>
                     <div className="headingTitle">Fullstack Web Developer</div>
-                   <a id="showButton" href="">See My Work</a>
+                   <a id="showButton" href="#projectsArea">See My Work</a>
 
                 </div>
 
