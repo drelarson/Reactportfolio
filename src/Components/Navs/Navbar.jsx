@@ -5,33 +5,45 @@ import mail from '../../Resources/Images/mail1.png'
 import linkedin from '../../Resources/Images/Linken.png'
 import './nav.css'
 
-const Navbar = ()=>{
+const Navbar = () => {
 
-    return(
+    return (
 
         <div id="navBar">
 
-            <img id='navLogo' src={Alogo} alt="AL Logo" />
+            <a id="atagLogo" href="#landingArea"><img id='navLogo' src={Alogo} alt="AL Logo" /></a>
 
             <div id="linkDiv">
 
-                <a className="linksDivs"href=""> About Me </a>
-                <a className="linksDivs"href=""> My Projects </a>
-                <a className="linksDivs"href=""> My Skills </a>
-                <a className="linksDivs"href=""> Contact Me </a>
+                <a className="linksDivs" href="#aboutArea"> About Me </a>
+                <a className="linksDivs" href="#projectsArea"> My Projects </a>
+                <a className="linksDivs" href="#skillsArea"> My Skills </a>
+                <a className="linksDivs" href="#contactArea"> Contact Me </a>
 
-                </div>
+
+            </div>
 
             <div id="contactDiv">
 
-                <span className="contactlinksDiv"><img className="contactlinks" src={github} alt="Gmail icon"/></span>
-                <span className="contactlinksDiv"><img className="contactlinks" src={mail} alt="LinkedIn Icon" /></span>
-                <span className="contactlinksDiv"><img  className="contactlinks" src={linkedin} alt="Github Icon"/></span>
+                <span className="contactlinksDiv">
+                    <a href="https://github.com/drelarson/Reactportfolio.git" target="_blank">
+                        <img className="contactlinks" src={github} alt="Gmail icon" />
+                    </a>
+                </span>
+                <span className="contactlinksDiv">
+
+                    <a href="mailto:larsonandre01@gmail.com">
+                        <img className="contactlinks" src={mail} alt="LinkedIn Icon" /></a>
+                </span>
+                <span className="contactlinksDiv">
+                    <a href="https://www.linkedin.com/in/andre-larson-38729228a/" target="_blank">
+                        <img className="contactlinks" src={linkedin} alt="Github Icon" /></a>
+                </span>
 
             </div>
 
 
-        
+
         </div>
 
     )
